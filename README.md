@@ -1,4 +1,3 @@
-# PCB-Design-Theories
 # 📘 PCB Design Theory Essentials
  
 A condensed reference of the **most important PCB design theories** the core concepts most frequently tested in exams, interviews, and used in real design work.
