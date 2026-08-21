@@ -39,9 +39,9 @@ A **Printed Circuit Board** mechanically supports and electrically connects comp
  
 | Type | Description |
 |---|---|
-| **Single-sided** | Copper on one side only — simplest, cheapest |
+| **Single-sided** | Copper on one side only  simplest, cheapest |
 | **Double-sided** | Copper both sides, connected via vias |
-| **Multilayer** | Alternating copper/dielectric layers — needed for density & controlled impedance |
+| **Multilayer** | Alternating copper/dielectric layers needed for density & controlled impedance |
 | **Rigid** | Standard fixed FR4 board |
 | **Flex** | Polyimide-based, bendable |
 | **Rigid-flex** | Rigid sections + flexible joints |
@@ -58,9 +58,9 @@ A **Printed Circuit Board** mechanically supports and electrically connects comp
 | Rogers / PTFE | 2.2–3.5 | RF/microwave |
 | Metal-core | — | High thermal dissipation |
  
-- **Copper weight**: 1 oz ≈ 35 µm — higher weight = more current capacity
+- **Copper weight**: 1 oz ≈ 35 µm higher weight = more current capacity
 - **Core** = pre-laminated copper-clad sheet; **Prepreg** = uncured resin/glass layer that bonds cores together during lamination
-- **Surface finishes**: HASL (cheap, uneven), ENIG (flat, fine-pitch), OSP (cheap, short shelf-life)
+- **Surface finishes**: HASL (cheap, uneven), ENIG (flat, fine-pitch), OSP (cheap, short shelflife)
 ---
  
 ## 4. Layer Stack-up
@@ -105,7 +105,7 @@ Governed by **IPC-2221**. Depends on:
 | Through-hole | All layers (drilled through entire board) |
 | Blind | Outer layer ↔ inner layer(s) |
 | Buried | Inner layers only |
-| Microvia | HDI boards, laser-drilled, ≤150 µm |
+| Microvia | HDI boards, laserdrilled, ≤150 µm |
 | Via-in-pad | Directly inside a component pad (fine-pitch BGA) |
  
 ---
@@ -135,14 +135,14 @@ Governed by **IPC-2221**. Depends on:
  
 - Minimize current **loop area** (signal + return path close together)
 - Avoid gaps in reference plane under high-speed traces
-- Add ferrite beads/common-mode chokes near noise sources
+- Add ferrite beads/common mode chokes near noise sources
 - Terminate transmission lines properly
 ---
  
 ## 11. Thermal Management
  
 - Use copper pours + thermal vias to spread/conduct heat
-- Increase copper weight on high-current layers
+- Increase copper weight on high current layers
 - Consider metal-core PCBs for power/LED applications
 - Watch CTE mismatch on BGA/QFN packages
 ---
@@ -198,7 +198,7 @@ Governed by **IPC-2221**. Depends on:
 | PCB purpose | Mechanical support + reliable interconnection |
 | Stack-up | Signal layers next to solid reference planes |
 | Trace width | Set by current capacity + impedance target |
-| Vias | Through-hole → blind/buried/microvia (HDI) |
+| Vias | Through hole → blind/buried/microvia (HDI) |
 | Decoupling | Caps as close as possible to IC power pins |
 | Crosstalk | 3W rule, adjacent ground plane |
 | Return path | Never cross a plane split under a signal |
